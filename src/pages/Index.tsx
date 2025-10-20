@@ -3,6 +3,18 @@ import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import aboutBanner from "@/assets/about-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
+import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
+import sapLabs from "@/assets/projects/sap-labs.jpg";
+import jpMorgan from "@/assets/projects/jp-morgan.jpg";
+import cognizant from "@/assets/projects/cognizant.jpg";
+import medicalCollege from "@/assets/projects/medical-college.jpg";
+import substation765kv from "@/assets/projects/765kv-substation.jpg";
+import gis400kv from "@/assets/projects/400kv-gis.jpg";
+import medwayHospital from "@/assets/projects/medway-hospital.jpg";
+import madrasFoodWalk from "@/assets/projects/madras-food-walk.jpg";
+import smileElectronics from "@/assets/projects/smile-electronics.jpg";
+import deltaElectronics from "@/assets/projects/delta-electronics.jpg";
+import natcoPharma from "@/assets/projects/natco-pharma.jpg";
 
 const Index = () => {
   return (
@@ -151,80 +163,113 @@ const Index = () => {
           Our portfolio includes successful project implementations across diverse industries, demonstrating our capability to handle complex electrical infrastructure requirements. We have executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka.
         </p>
         
-        <div className="space-y-6">
-          <div>
-            <h4 className="font-semibold text-base mb-2">Acquila Phoenix Mall - Tower A (5L SQ.FT)</h4>
-            <p className="text-sm text-muted-foreground">Hyderabad, Telangana</p>
+        <div className="grid gap-6 md:grid-cols-2">
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={phoenixMall} alt="Acquila Phoenix Mall" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Acquila Phoenix Mall - Tower A</h4>
+              <p className="text-sm text-muted-foreground mb-1">5L SQ.FT</p>
+              <p className="text-sm text-muted-foreground">Hyderabad, Telangana</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">SAP Labs - IT Department</h4>
-            <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={sapLabs} alt="SAP Labs" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">SAP Labs</h4>
+              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">JP Morgan - IT Department</h4>
-            <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={jpMorgan} alt="JP Morgan" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">JP Morgan</h4>
+              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Cognizant CCC Campus (4L SQ.FT)</h4>
-            <p className="text-sm text-muted-foreground">Coimbatore, Tamil Nadu</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={cognizant} alt="Cognizant CCC Campus" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Cognizant CCC Campus</h4>
+              <p className="text-sm text-muted-foreground mb-1">4L SQ.FT</p>
+              <p className="text-sm text-muted-foreground">Coimbatore, Tamil Nadu</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Shri Satya Sai Medical College & Research Institute</h4>
-            <p className="text-sm text-muted-foreground">Thiruporur, Chennai</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={medicalCollege} alt="Shri Satya Sai Medical College" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Shri Satya Sai Medical College</h4>
+              <p className="text-sm text-muted-foreground mb-1">Research Institute</p>
+              <p className="text-sm text-muted-foreground">Thiruporur, Chennai</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Tamil Nadu First 765kV/400kV AIS Substation</h4>
-            <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu - TANTRANSCO</p>
+          <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
+            <img src={substation765kv} alt="765kV/400kV AIS Substation" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 765kV/400kV AIS Substation</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
+              <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu - TANTRANSCO</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Tamil Nadu First 400kV GIS Power Plant</h4>
-            <p className="text-sm text-muted-foreground">Udangudi STPP, Thoothukudi - TANGEDCO</p>
+          <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
+            <img src={gis400kv} alt="400kV GIS Power Plant" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 400kV GIS Power Plant</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
+              <p className="text-sm text-muted-foreground">Udangudi STPP, Thoothukudi - TANGEDCO</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Medway Hospital</h4>
-            <p className="text-sm text-muted-foreground">Kumbakonam, Tamil Nadu</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={medwayHospital} alt="Medway Hospital" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Medway Hospital</h4>
+              <p className="text-sm text-muted-foreground mb-1">Healthcare Facility</p>
+              <p className="text-sm text-muted-foreground">Kumbakonam, Tamil Nadu</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">TCPL Packaging Limited</h4>
-            <p className="text-sm text-muted-foreground">Tiruvallur, Tamil Nadu</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={madrasFoodWalk} alt="Madras Food Walk" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Madras Food Walk</h4>
+              <p className="text-sm text-muted-foreground mb-1">Commercial Complex</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Madras Food Walk</h4>
-            <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={smileElectronics} alt="Smile Electronics" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Smile Electronics Limited</h4>
+              <p className="text-sm text-muted-foreground mb-1">Powered by Zetwerk</p>
+              <p className="text-sm text-muted-foreground">Thiruvallur, Tamil Nadu</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Smile Electronics Limited</h4>
-            <p className="text-sm text-muted-foreground">Thiruvallur, Tamil Nadu - Powered by Zetwerk</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={deltaElectronics} alt="Delta Electronics" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Delta Electronics India Pvt Ltd</h4>
+              <p className="text-sm text-muted-foreground mb-1">Solar Power Plant Installation</p>
+              <p className="text-sm text-muted-foreground">Krishnagiri, Tamil Nadu</p>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold text-base mb-2">Delta Electronics India Private Limited</h4>
-            <p className="text-sm text-muted-foreground">Krishnagiri, Tamil Nadu - Solar Power Plant Installation</p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-base mb-2">A1 SKC Food Products Private Limited</h4>
-            <p className="text-sm text-muted-foreground">Palladam, Tirupur - Cow Ghee Manufacturer</p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-base mb-2">Natco Pharma Limited</h4>
-            <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu - Pharmaceutical Industry</p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold text-base mb-2">VA Tech Wabag Limited</h4>
-            <p className="text-sm text-muted-foreground">400MLD Desalination Plant, Nemmeli, Chennai</p>
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={natcoPharma} alt="Natco Pharma" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Natco Pharma Limited</h4>
+              <p className="text-sm text-muted-foreground mb-1">Pharmaceutical Industry</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
           </div>
         </div>
 
