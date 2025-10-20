@@ -31,8 +31,8 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-header text-header-foreground transition-shadow ${
-        isScrolled ? "shadow-md" : ""
+      className={`sticky top-0 z-50 bg-background border-b transition-all ${
+        isScrolled ? "shadow-md border-border" : "border-transparent"
       }`}
     >
       <nav className="container mx-auto max-w-[1100px] px-4">
@@ -46,7 +46,7 @@ const Header = () => {
             <button
               key={item.id}
               onClick={() => scrollToSection(item.id)}
-              className="whitespace-nowrap text-sm opacity-90 transition-opacity hover:opacity-100 hover:underline"
+              className="whitespace-nowrap text-sm text-foreground opacity-80 transition-opacity hover:opacity-100 hover:text-accent"
             >
               {item.label}
             </button>
