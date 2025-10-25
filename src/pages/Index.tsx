@@ -28,10 +28,10 @@ const Index = () => {
           KEPL EPC INFRA, a Professional Electrical Contracting Company, has executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are super "A" Grade licensed Electrical contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamilnadu.
         </p>
         <p>
-          KEPL EPC INFRA was established in 2006 as a Private Limited company based at Chennai being headed by our directors Mr. Dharmalingam C, an electrical engineer by profession. He has done his B.E (Hons) at a premier institution in South India. We have more than 20+ years of excellent performance in the field and executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka. We have managed to spread our corporate wings into various fields like turnkey electrical contracting projects, manufacturing of low-tension switchgear panels, energy saving system, maintenance of total plant electrical systems etc., and keep us soaring high.
+          KEPL EPC INFRA was established in 2006 as a Private Limited company based at Chennai. Led by experienced electrical engineering professionals with degrees from premier institutions in South India, we have more than 20+ years of excellent performance in the field and executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka. We have managed to spread our corporate wings into various fields like turnkey electrical contracting projects, manufacturing of low-tension switchgear panels, energy saving system, maintenance of total plant electrical systems etc., and keep us soaring high.
         </p>
         <p>
-          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best result to our esteemed clients. In short, DSE stands for Dedicated Smart Engineers - ready to serve the industries in respect to all of their electrical solutions.
+          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best result to our esteemed clients. In short, KEPL stands for Keen Engineering and Professional Leadership - ready to serve the industries in respect to all of their electrical solutions.
         </p>
         
         <h3 className="mt-8 text-lg font-semibold">MISSION</h3>
