@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
+import { Phone, Mail, Globe, MapPin, Building2 } from "lucide-react";
 import aboutBanner from "@/assets/about-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
 import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
@@ -394,37 +395,112 @@ const Index = () => {
       </Section>
 
       <Section id="contact" title="Contact Us">
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-lg font-semibold mb-3">KEPL EPC INFRA</h3>
-            <p className="text-sm">
-              Professional Electrical Contracting Company
+        <div className="space-y-8">
+          {/* Contact Header */}
+          <div className="bg-muted/50 p-6 rounded-lg space-y-4">
+            <h3 className="text-lg font-semibold">KEPL EPC INFRA</h3>
+            <p className="text-sm text-muted-foreground">
+              Professional Electrical Contracting Company | ISO 9001:2015 Certified | Super "A" Grade Licensed Contractor (ESA 542)
             </p>
-            <p className="text-sm">
-              ISO 9001:2015 Certified | Super "A" Grade Licensed Contractor (ESA 542)
-            </p>
+            
+            <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3 mt-4">
+              <div className="flex items-center gap-2 text-sm">
+                <Phone className="h-4 w-4 text-accent flex-shrink-0" />
+                <div>
+                  <div>044 2621 1717</div>
+                  <div>044 2621 9999</div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-2 text-sm">
+                <Mail className="h-4 w-4 text-accent flex-shrink-0" />
+                <div>
+                  <a href="mailto:keplinfra@yahoo.co.in" className="hover:text-accent transition-colors">
+                    keplinfra@yahoo.co.in
+                  </a>
+                  <br />
+                  <a href="mailto:keplepcinfra@gmail.com" className="hover:text-accent transition-colors">
+                    keplepcinfra@gmail.com
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-2 text-sm">
+                <Globe className="h-4 w-4 text-accent flex-shrink-0" />
+                <a href="http://www.keplepcinfra.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+                  www.keplepcinfra.com
+                </a>
+              </div>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-2">Corporate Office</h4>
-            <p className="text-sm">
-              No.16, 2nd Floor, Om Shakthi Nagar, 2nd Street<br />
-              Mettukuppam, Vanagaram<br />
-              Chennai - 600 095<br />
-              Tamil Nadu, India
-            </p>
+          {/* Office Locations */}
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {/* Chennai Office */}
+            <div className="border border-accent/30 bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-3 mb-4">
+                <Building2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                <h4 className="font-semibold text-accent">Chennai Office</h4>
+              </div>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-start gap-2">
+                  <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
+                  <p>
+                    No 51, Thirumalai Salai,<br />
+                    Thiru-Vi-Ka Indl. Estate,<br />
+                    Guindy, Chennai - 600032
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <span>98410 50360</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Bangalore Office */}
+            <div className="border border-border bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-3 mb-4">
+                <Building2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                <h4 className="font-semibold">Bangalore Office</h4>
+              </div>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-start gap-2">
+                  <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
+                  <p>
+                    No 1213, 16th Main Road,<br />
+                    Anna Nagar West Extension,<br />
+                    Bangalore - 560097
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <span>98410 50360</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Factory */}
+            <div className="border border-border bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-3 mb-4">
+                <Building2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                <h4 className="font-semibold">Factory</h4>
+              </div>
+              <div className="space-y-3 text-sm">
+                <div className="flex items-start gap-2">
+                  <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
+                  <p>
+                    Plot No. F-21,<br />
+                    SIDCO Indl. Estate,<br />
+                    Gummidipoondi,<br />
+                    Thiruvallur Dist. - 601201
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-2">Contact Information</h4>
-            <p className="text-sm">
-              <strong>Email:</strong>{" "}
-              <a href="mailto:factory@keplepcinfra.in" className="text-accent hover:underline">
-                factory@keplepcinfra.in
-              </a>
-            </p>
-          </div>
-
+          {/* Service Areas */}
           <div className="bg-muted p-4 rounded-lg">
             <h4 className="font-semibold mb-2">Service Areas</h4>
             <p className="text-sm">
