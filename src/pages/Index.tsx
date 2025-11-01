@@ -446,14 +446,15 @@ const Index = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <p>
-                    No 51, Thirumalai Salai,<br />
-                    Thiru-Vi-Ka Indl. Estate,<br />
-                    Guindy, Chennai - 600032
+                    ITPI Building, Mogappair<br />
+                    Plot No.PP-1, Ground Floor<br />
+                    6th Main Road, Eri Scheme<br />
+                    Mogappair East, Chennai - 600 037
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                  <span>98410 50360</span>
+                  <span>044-2653 4885</span>
                 </div>
               </div>
             </div>
@@ -468,14 +469,21 @@ const Index = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <p>
-                    No 1213, 16th Main Road,<br />
-                    Anna Nagar West Extension,<br />
-                    Bangalore - 560097
+                    Shop No.1, Guru Basava Building<br />
+                    Site No.22, 2nd Cross<br />
+                    Raghuvanahalli Off Kanakapura<br />
+                    Main Road, Bangalore - 560 062
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                  <span>98410 50360</span>
+                  <span>+91-89259 32872</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <a href="mailto:blr@keplepcinfra.in" className="hover:text-accent transition-colors">
+                    blr@keplepcinfra.in
+                  </a>
                 </div>
               </div>
             </div>
@@ -490,11 +498,20 @@ const Index = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <p>
-                    Plot No. F-21,<br />
-                    SIDCO Indl. Estate,<br />
-                    Gummidipoondi,<br />
-                    Thiruvallur Dist. - 601201
+                    Survey No. 141/1, Balaji Nagar,<br />
+                    Thirumazhisai Poonamallee,<br />
+                    Chennai - 600 124
                   </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <span>+91-89259 32877</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <a href="mailto:factory@keplepcinfra.in" className="hover:text-accent transition-colors">
+                    factory@keplepcinfra.in
+                  </a>
                 </div>
               </div>
             </div>
