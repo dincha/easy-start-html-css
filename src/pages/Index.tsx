@@ -456,6 +456,12 @@ const Index = () => {
                   <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
                   <span>044-2653 4885</span>
                 </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                  <a href="mailto:info@keplepcinfra.in" className="hover:text-accent transition-colors">
+                    info@keplepcinfra.in
+                  </a>
+                </div>
               </div>
             </div>
 
