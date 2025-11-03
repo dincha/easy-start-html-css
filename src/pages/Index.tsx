@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import { Phone, Mail, Globe, MapPin, Building2 } from "lucide-react";
-import aboutBanner from "@/assets/about-banner.jpg";
+import electricalPanelBanner from "@/assets/electrical-panel-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
 import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
 import sapLabs from "@/assets/projects/sap-labs.jpg";
@@ -23,7 +23,7 @@ const Index = () => {
       <Header />
       <Hero />
 
-      <Section id="about" title="About Us" banner={aboutBanner}>
+      <Section id="about" title="About Us" banner={electricalPanelBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
           KEPL EPC INFRA, a Professional Electrical Contracting Company, has executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are super "A" Grade licensed Electrical contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamilnadu.
