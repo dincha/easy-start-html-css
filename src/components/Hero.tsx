@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-bg.jpg";
+import heroImage from "@/assets/hero-electrical-grid.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
