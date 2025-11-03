@@ -8,7 +8,7 @@ import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
 import sapLabs from "@/assets/projects/sap-labs.jpg";
 import jpMorgan from "@/assets/projects/jp-morgan.jpg";
 import cognizant from "@/assets/projects/cognizant.jpg";
-import medicalCollege from "@/assets/projects/medical-college.jpg";
+import medicalCollege from "@/assets/projects/medical-college-new.jpg";
 import substation765kv from "@/assets/projects/765kv-substation.jpg";
 import gis400kv from "@/assets/projects/400kv-gis.jpg";
 import medwayHospital from "@/assets/projects/medway-hospital-new.jpg";
