@@ -9,7 +9,7 @@ import sapLabs from "@/assets/projects/sap-labs.jpg";
 import jpMorgan from "@/assets/projects/jp-morgan.jpg";
 import cognizant from "@/assets/projects/cognizant.jpg";
 import medicalCollege from "@/assets/projects/medical-college-new.jpg";
-import substation765kv from "@/assets/projects/765kv-substation.jpg";
+import substation765kv from "@/assets/projects/765kv-substation-new.jpg";
 import gis400kv from "@/assets/projects/400kv-gis.jpg";
 import medwayHospital from "@/assets/projects/medway-hospital-new.jpg";
 import madrasFoodWalk from "@/assets/projects/madras-food-walk.jpg";
