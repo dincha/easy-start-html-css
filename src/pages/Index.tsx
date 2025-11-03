@@ -394,6 +394,82 @@ const Index = () => {
         </p>
       </Section>
 
+      <Section id="careers" title="Careers">
+        <h3 className="text-lg font-semibold">JOIN OUR TEAM</h3>
+        <p>
+          At KEPL EPC INFRA, we believe that our people are our greatest asset. We are always looking for talented, motivated, and dedicated professionals who share our commitment to excellence and innovation in the electrical contracting industry.
+        </p>
+        
+        <h3 className="mt-6 text-lg font-semibold">WHY WORK WITH US?</h3>
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
+          <div className="bg-muted p-4 rounded-lg">
+            <h4 className="font-semibold mb-2">Professional Growth</h4>
+            <p className="text-sm">
+              We provide continuous learning opportunities and career advancement pathways for all our employees. Work on challenging projects across South India and develop expertise in cutting-edge electrical technologies.
+            </p>
+          </div>
+          <div className="bg-muted p-4 rounded-lg">
+            <h4 className="font-semibold mb-2">Safety First Culture</h4>
+            <p className="text-sm">
+              Your safety is our priority. We maintain the highest safety standards and provide comprehensive training to ensure a secure working environment for all team members.
+            </p>
+          </div>
+          <div className="bg-muted p-4 rounded-lg">
+            <h4 className="font-semibold mb-2">Competitive Benefits</h4>
+            <p className="text-sm">
+              We offer competitive compensation packages, health benefits, and employee welfare programs that recognize and reward your contribution to our success.
+            </p>
+          </div>
+          <div className="bg-muted p-4 rounded-lg">
+            <h4 className="font-semibold mb-2">Diverse Projects</h4>
+            <p className="text-sm">
+              Work on landmark projects including EHV substations, commercial complexes, IT campuses, healthcare facilities, and manufacturing plants across multiple industries.
+            </p>
+          </div>
+        </div>
+
+        <h3 className="mt-8 text-lg font-semibold">CURRENT OPPORTUNITIES</h3>
+        <p className="mb-4">
+          We are looking for professionals in various roles including:
+        </p>
+        <div className="grid gap-3 md:grid-cols-2">
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Electrical Engineers</li>
+            <li>Project Managers</li>
+            <li>Site Engineers</li>
+            <li>Design Engineers</li>
+          </ul>
+          <ul className="list-disc space-y-2 pl-6">
+            <li>Quality Control Engineers</li>
+            <li>Safety Officers</li>
+            <li>Technical Supervisors</li>
+            <li>Panel Fabrication Technicians</li>
+          </ul>
+        </div>
+
+        <div className="mt-8 bg-accent/10 border border-accent/30 rounded-lg p-6">
+          <h4 className="font-semibold text-lg mb-3">How to Apply</h4>
+          <p className="mb-4">
+            If you are passionate about electrical engineering and want to be part of a dynamic team that delivers excellence, we would love to hear from you.
+          </p>
+          <p className="mb-2">
+            Please send your resume and cover letter to:
+          </p>
+          <div className="flex items-center gap-2 mb-4">
+            <Mail className="h-5 w-5 text-accent" />
+            <a 
+              href="mailto:info@keplepcinfra.in" 
+              className="text-accent font-semibold hover:underline text-lg"
+            >
+              info@keplepcinfra.in
+            </a>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Please include "Career Application - [Position Name]" in the subject line of your email.
+          </p>
+        </div>
+      </Section>
+
       <Section id="contact" title="Contact Us">
         <div className="space-y-8">
           {/* Contact Header */}
