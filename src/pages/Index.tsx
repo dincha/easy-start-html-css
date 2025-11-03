@@ -440,7 +440,7 @@ const Index = () => {
             <div className="border border-accent/30 bg-card rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start gap-3 mb-4">
                 <Building2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                <h4 className="font-semibold text-accent">Chennai Office</h4>
+                <h4 className="font-semibold text-accent">Chennai Corporate Office</h4>
               </div>
               <div className="space-y-3 text-sm">
                 <div className="flex items-start gap-2">
