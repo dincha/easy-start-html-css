@@ -13,7 +13,7 @@ import substation765kv from "@/assets/projects/765kv-substation.jpg";
 import gis400kv from "@/assets/projects/400kv-gis.jpg";
 import medwayHospital from "@/assets/projects/medway-hospital.jpg";
 import madrasFoodWalk from "@/assets/projects/madras-food-walk.jpg";
-import smileElectronics from "@/assets/projects/smile-electronics.jpg";
+import smileElectronics from "@/assets/projects/smile-electronics-new.jpg";
 import deltaElectronics from "@/assets/projects/delta-electronics-new.jpg";
 import natcoPharma from "@/assets/projects/natco-pharma-new.jpg";
 
