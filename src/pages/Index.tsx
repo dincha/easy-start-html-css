@@ -15,7 +15,7 @@ import medwayHospital from "@/assets/projects/medway-hospital.jpg";
 import madrasFoodWalk from "@/assets/projects/madras-food-walk.jpg";
 import smileElectronics from "@/assets/projects/smile-electronics.jpg";
 import deltaElectronics from "@/assets/projects/delta-electronics-new.jpg";
-import natcoPharma from "@/assets/projects/natco-pharma.jpg";
+import natcoPharma from "@/assets/projects/natco-pharma-new.jpg";
 
 const Index = () => {
   return (
