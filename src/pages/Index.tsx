@@ -153,7 +153,7 @@ const Index = () => {
         <h3 className="mt-6 text-lg font-semibold">CPRI APPROVED MACHINERY</h3>
         <ul className="list-disc space-y-1 pl-6">
           <li>6000A, 70KA 1 Sec Short Circuit Withstand Testing</li>
-          <li>4000A Temperature Rise Testing Clearance & Creepage Testing</li>
+          <li>6000A Temperature Rise Testing Clearance & Creepage Testing</li>
           <li>IP65 Testing</li>
           <li>IS/IEC 61439, Part 1 & 2</li>
         </ul>
@@ -383,7 +383,7 @@ const Index = () => {
         <ul className="list-disc space-y-1 pl-6 mt-3">
           <li>IS/IEC 61439, Part 1 & 2 compliant manufacturing</li>
           <li>6000A, 70KA 1 Sec Short Circuit Withstand Testing capability</li>
-          <li>4000A Temperature Rise Testing certification</li>
+          <li>6000A Temperature Rise Testing certification</li>
           <li>IP65 Testing approval</li>
           <li>Clearance & Creepage Testing certification</li>
         </ul>
