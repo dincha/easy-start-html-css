@@ -397,43 +397,6 @@ const Index = () => {
       <Section id="contact" title="Contact Us">
         <div className="space-y-8">
           {/* Contact Header */}
-          <div className="bg-muted/50 p-6 rounded-lg space-y-4">
-            <h3 className="text-lg font-semibold">KEPL EPC INFRA</h3>
-            <p className="text-sm text-muted-foreground">
-              Professional Electrical Contracting Company | ISO 9001:2015 Certified | Super "A" Grade Licensed Contractor (ESA 542)
-            </p>
-            
-            <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3 mt-4">
-              <div className="flex items-center gap-2 text-sm">
-                <Phone className="h-4 w-4 text-accent flex-shrink-0" />
-                <div>
-                  <div>044 2621 1717</div>
-                  <div>044 2621 9999</div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-2 text-sm">
-                <Mail className="h-4 w-4 text-accent flex-shrink-0" />
-                <div>
-                  <a href="mailto:keplinfra@yahoo.co.in" className="hover:text-accent transition-colors">
-                    keplinfra@yahoo.co.in
-                  </a>
-                  <br />
-                  <a href="mailto:keplepcinfra@gmail.com" className="hover:text-accent transition-colors">
-                    keplepcinfra@gmail.com
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-2 text-sm">
-                <Globe className="h-4 w-4 text-accent flex-shrink-0" />
-                <a href="http://www.keplepcinfra.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
-                  www.keplepcinfra.com
-                </a>
-              </div>
-            </div>
-          </div>
-
           {/* Office Locations */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {/* Chennai Office */}
