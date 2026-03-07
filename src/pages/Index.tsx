@@ -194,14 +194,14 @@ const Index = () => {
 
       <Section id="projects" title="Selected Projects">
         <p className="mb-6">
-          Our portfolio includes successful project implementations across diverse industries, demonstrating our capability to handle complex electrical infrastructure requirements. We have executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka.
+          Our portfolio includes successful project implementations across diverse industries, demonstrating our capability to handle complex electrical infrastructure requirements. We have executed end-to-end electrical projects across South India — Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala.
         </p>
         
         <div className="grid gap-6 md:grid-cols-2">
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={phoenixMall} alt="Acquila Phoenix Mall" className="w-full h-48 object-cover" />
+            <img src={phoenixMall} alt="Aquila Phoenix Mall" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Acquila Phoenix Mall - Tower A</h4>
+              <h4 className="font-semibold text-base mb-1">Aquila Phoenix Mall</h4>
               <p className="text-sm text-muted-foreground mb-1">5L SQ.FT</p>
               <p className="text-sm text-muted-foreground">Hyderabad, Telangana</p>
             </div>
@@ -211,7 +211,7 @@ const Index = () => {
             <img src={sapLabs} alt="SAP Labs" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">SAP Labs</h4>
-              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground mb-1">IT Campus</p>
               <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Index = () => {
             <img src={jpMorgan} alt="JP Morgan" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">JP Morgan</h4>
-              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground mb-1">IT Campus</p>
               <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
@@ -238,78 +238,87 @@ const Index = () => {
             <img src={medicalCollege} alt="Shri Satya Sai Medical College" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">Shri Satya Sai Medical College</h4>
-              <p className="text-sm text-muted-foreground mb-1">Research Institute</p>
-              <p className="text-sm text-muted-foreground">Thiruporur, Chennai</p>
+              <p className="text-sm text-muted-foreground mb-1">Medical & Research Institute</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={substation765kv} alt="765kV/400kV AIS Substation" className="w-full h-48 object-cover" />
+            <img src={substation765kv} alt="BHEL Ariyalur 765kV/400kV AISS" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 765kV/400kV AIS Substation</h4>
-              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
-              <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu - TANTRANSCO</p>
+              <h4 className="font-semibold text-base mb-1">BHEL Ariyalur 765kV/400kV AISS</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project – Safety Certificate Awarded</p>
+              <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu – TANTRANSCO</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={medwayHospital} alt="Primeco New Star" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Primeco New Star</h4>
+              <p className="text-sm text-muted-foreground mb-1">Commercial Project</p>
+              <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={gis400kv} alt="400kV GIS Power Plant" className="w-full h-48 object-cover" />
+            <img src={gis400kv} alt="Udangudi Super Critical Thermal Power Project" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 400kV GIS Power Plant</h4>
-              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
-              <p className="text-sm text-muted-foreground">Udangudi STPP, Thoothukudi - TANGEDCO</p>
+              <h4 className="font-semibold text-base mb-1">Udangudi Super Critical Thermal Power Project</h4>
+              <p className="text-sm text-accent font-medium mb-1">2x660MW, 400kV GIS – Safety Approvals</p>
+              <p className="text-sm text-muted-foreground">Thoothukudi, Tamil Nadu – TANGEDCO</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={medwayHospital} alt="Medway Hospital" className="w-full h-48 object-cover" />
+            <img src={madrasFoodWalk} alt="Vidhyagyan School" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Medway Hospital</h4>
-              <p className="text-sm text-muted-foreground mb-1">Healthcare Facility</p>
-              <p className="text-sm text-muted-foreground">Kumbakonam, Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Vidhyagyan School</h4>
+              <p className="text-sm text-muted-foreground mb-1">Educational Institution</p>
+              <p className="text-sm text-muted-foreground">Thiruporur, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={madrasFoodWalk} alt="Madras Food Walk" className="w-full h-48 object-cover" />
+            <img src={natcoPharma} alt="TCPL Packaging Ltd" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Madras Food Walk</h4>
-              <p className="text-sm text-muted-foreground mb-1">Commercial Complex</p>
+              <h4 className="font-semibold text-base mb-1">TCPL Packaging Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={smileElectronics} alt="Smile Electronics" className="w-full h-48 object-cover" />
+            <img src={deltaElectronics} alt="Harris & Menuk" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Smile Electronics Limited</h4>
-              <p className="text-sm text-muted-foreground mb-1">Powered by Zetwerk</p>
-              <p className="text-sm text-muted-foreground">Thiruvallur, Tamil Nadu</p>
-            </div>
-          </div>
-
-          <div className="border border-border rounded-lg overflow-hidden">
-            <img src={deltaElectronics} alt="Delta Electronics" className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Delta Electronics India Pvt Ltd</h4>
-              <p className="text-sm text-muted-foreground mb-1">Solar Power Plant Installation</p>
-              <p className="text-sm text-muted-foreground">Krishnagiri, Tamil Nadu</p>
-            </div>
-          </div>
-
-          <div className="border border-border rounded-lg overflow-hidden">
-            <img src={natcoPharma} alt="Natco Pharma" className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Natco Pharma Limited</h4>
-              <p className="text-sm text-muted-foreground mb-1">Pharmaceutical Industry</p>
+              <h4 className="font-semibold text-base mb-1">Harris & Menuk</h4>
+              <p className="text-sm text-muted-foreground mb-1">Industrial Project</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={smileElectronics} alt="Smile Electronics Ltd" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Smile Electronics Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={deltaElectronics} alt="Taichuang Engineering Solar Project" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Taichuang Engineering India Pvt Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Solar Project – 100kW × 3 Nos.</p>
+              <p className="text-sm text-muted-foreground">Tamil Nadu</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 p-4 bg-muted rounded-lg">
           <p className="text-sm">
-            <strong>Note:</strong> All projects completed with full safety certifications and regulatory compliance from the Government of Tamil Nadu Electrical Inspectorate and Central Electricity Authority.
+            <strong>Note:</strong> All projects completed with full safety certifications and regulatory compliance from the Government of Tamil Nadu Electrical Inspectorate and Central Electricity Authority. Safety certificates and transformer approval certificates available on request.
           </p>
         </div>
       </Section>
@@ -599,7 +608,7 @@ const Index = () => {
           <div className="bg-muted p-4 rounded-lg">
             <h4 className="font-semibold mb-2">Service Areas</h4>
             <p className="text-sm">
-              We provide electrical contracting services across South India including Tamil Nadu, Andhra Pradesh, Telangana, and Karnataka. Our team of dedicated professionals is ready to serve industries with comprehensive electrical solutions.
+              We provide electrical contracting services across South India including Tamil Nadu, Andhra Pradesh, Telangana, Karnataka, and Kerala. Our team of dedicated professionals is ready to serve industries with comprehensive electrical solutions.
             </p>
           </div>
         </div>
