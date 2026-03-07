@@ -26,21 +26,44 @@ const Index = () => {
       <Section id="about" title="About Us" banner={electricalPanelBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
-          KEPL EPC INFRA, a Professional Electrical Contracting Company, has executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are super "A" Grade licensed Electrical contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamilnadu.
+          KEPL EPC INFRA, a Professional Electrical Contracting Company, was established in 2006 as a Private Limited Company headquartered in Chennai. We have executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are Super "A" Grade Licensed Electrical Contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamil Nadu and an ISO 9001:2015 certified company.
         </p>
         <p>
-          KEPL EPC INFRA was established in 2006 as a Private Limited company based at Chennai. Led by experienced electrical engineering professionals with degrees from premier institutions in South India, we have more than 20+ years of excellent performance in the field and executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka. We have managed to spread our corporate wings into various fields like turnkey electrical contracting projects, manufacturing of low-tension switchgear panels, energy saving system, maintenance of total plant electrical systems etc., and keep us soaring high.
+          With more than 20 years of excellence, we have executed end-to-end electrical projects across South India — Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala. We have expanded into diverse domains including turnkey MEP contracting, LT switchgear manufacturing, energy-saving systems, solar power plants, and O&M of plant electrical systems.
         </p>
         <p>
-          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best result to our esteemed clients. In short, KEPL stands for Keen Engineering and Professional Leadership - ready to serve the industries in respect to all of their electrical solutions.
+          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best results to our esteemed clients. In short, KEPL stands for Dedicated Smart Engineers (DSE) – Always Ready to serve industries with comprehensive electrical solutions.
         </p>
+
+        <div className="mt-6 bg-accent/10 border border-accent/30 rounded-lg p-5">
+          <h4 className="font-semibold text-base mb-2">CEO & FOUNDER</h4>
+          <p className="font-semibold text-accent">Mr. Dharmalingam C</p>
+          <p className="text-sm text-muted-foreground">B.E (Hons), Electrical Engineer</p>
+          <p className="text-sm mt-2">
+            With decades of hands-on experience in the electrical contracting industry, Mr. Dharmalingam leads KEPL EPC INFRA with a vision for excellence, safety, and innovation across all projects.
+          </p>
+        </div>
+
+        <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
+        <div className="mt-3 grid gap-2 md:grid-cols-2">
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Turnkey MEP Contracting</li>
+            <li>LT Switchgear Manufacturing</li>
+            <li>Energy-Saving Systems</li>
+          </ul>
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Solar Power Plants</li>
+            <li>O&M of Plant Electrical Systems</li>
+            <li>EHV & MV/LV Installations</li>
+          </ul>
+        </div>
         
-        <h3 className="mt-8 text-lg font-semibold">MISSION</h3>
+        <h3 className="mt-8 text-lg font-semibold">VISION</h3>
         <p className="font-medium">
-          To become premier EPC Contractor company globally
+          "To become premier EPC Contractor company globally."
         </p>
         
-        <h3 className="mt-6 text-lg font-semibold">VISION</h3>
+        <h3 className="mt-6 text-lg font-semibold">MISSION</h3>
         <ul className="list-disc space-y-2 pl-6">
           <li>Highest integrity</li>
           <li>Expertise</li>
@@ -50,34 +73,44 @@ const Index = () => {
 
         <h3 className="mt-6 text-lg font-semibold">VALUES</h3>
         <ul className="list-disc space-y-2 pl-6">
-          <li>Employee welfare, Safety</li>
+          <li>Employee welfare and safety</li>
           <li>Social awareness and responsibility</li>
         </ul>
 
         <h3 className="mt-8 text-lg font-semibold">ORGANIZATION STRUCTURE</h3>
         <p>
-          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments. Each department is supported by a hierarchical team of managers, engineers, supervisors, and assistants ensuring streamlined project execution and operational efficiency.
+          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments through a well-defined hierarchy ensuring streamlined project execution and operational efficiency.
         </p>
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          <div>
-            <h4 className="font-semibold text-sm mb-2">Executive Leadership</h4>
-            <ul className="list-disc space-y-1 pl-6 text-sm">
-              <li>CEO</li>
-              <li>GM</li>
-              <li>Factory Manager</li>
-              <li>Accounts Manager</li>
-              <li>Operation Head</li>
-            </ul>
+        <div className="mt-4 space-y-3">
+          <div className="bg-accent/10 border border-accent/30 rounded p-3 text-center">
+            <p className="font-bold text-accent">CEO</p>
+            <p className="text-xs text-muted-foreground">Mr. Dharmalingam C</p>
           </div>
-          <div>
-            <h4 className="font-semibold text-sm mb-2">Management Team</h4>
-            <ul className="list-disc space-y-1 pl-6 text-sm">
-              <li>Projects Manager</li>
-              <li>Purchase Manager</li>
-              <li>HR & Finance Manager</li>
-              <li>Design Engineers</li>
-              <li>Safety & QC Engineer</li>
-            </ul>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-accent/40" />
+          </div>
+          <div className="bg-muted rounded p-3 text-center">
+            <p className="font-semibold text-sm">GM – Projects</p>
+          </div>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-border" />
+          </div>
+          <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+            {["Business Development", "Purchase", "Accounts", "Contracts", "Govt. Liaisoning", "Factory"].map((dept) => (
+              <div key={dept} className="bg-muted rounded p-2 text-center">
+                <p className="font-medium text-xs">{dept}</p>
+              </div>
+            ))}
+          </div>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-border" />
+          </div>
+          <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
+            {["Project Managers", "Engineers", "Supervisors", "Technicians"].map((role) => (
+              <div key={role} className="bg-muted rounded p-2 text-center">
+                <p className="font-medium text-xs">{role}</p>
+              </div>
+            ))}
           </div>
         </div>
       </Section>
