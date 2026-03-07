@@ -26,21 +26,44 @@ const Index = () => {
       <Section id="about" title="About Us" banner={electricalPanelBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
-          KEPL EPC INFRA, a Professional Electrical Contracting Company, has executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are super "A" Grade licensed Electrical contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamilnadu.
+          KEPL EPC INFRA, a Professional Electrical Contracting Company, was established in 2006 as a Private Limited Company headquartered in Chennai. We have executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are Super "A" Grade Licensed Electrical Contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamil Nadu and an ISO 9001:2015 certified company.
         </p>
         <p>
-          KEPL EPC INFRA was established in 2006 as a Private Limited company based at Chennai. Led by experienced electrical engineering professionals with degrees from premier institutions in South India, we have more than 20+ years of excellent performance in the field and executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka. We have managed to spread our corporate wings into various fields like turnkey electrical contracting projects, manufacturing of low-tension switchgear panels, energy saving system, maintenance of total plant electrical systems etc., and keep us soaring high.
+          With more than 20 years of excellence, we have executed end-to-end electrical projects across South India — Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala. We have expanded into diverse domains including turnkey MEP contracting, LT switchgear manufacturing, energy-saving systems, solar power plants, and O&M of plant electrical systems.
         </p>
         <p>
-          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best result to our esteemed clients. In short, KEPL stands for Keen Engineering and Professional Leadership - ready to serve the industries in respect to all of their electrical solutions.
+          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best results to our esteemed clients. In short, KEPL stands for Dedicated Smart Engineers (DSE) – Always Ready to serve industries with comprehensive electrical solutions.
         </p>
+
+        <div className="mt-6 bg-accent/10 border border-accent/30 rounded-lg p-5">
+          <h4 className="font-semibold text-base mb-2">CEO & FOUNDER</h4>
+          <p className="font-semibold text-accent">Mr. Dharmalingam C</p>
+          <p className="text-sm text-muted-foreground">B.E (Hons), Electrical Engineer</p>
+          <p className="text-sm mt-2">
+            With decades of hands-on experience in the electrical contracting industry, Mr. Dharmalingam leads KEPL EPC INFRA with a vision for excellence, safety, and innovation across all projects.
+          </p>
+        </div>
+
+        <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
+        <div className="mt-3 grid gap-2 md:grid-cols-2">
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Turnkey MEP Contracting</li>
+            <li>LT Switchgear Manufacturing</li>
+            <li>Energy-Saving Systems</li>
+          </ul>
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Solar Power Plants</li>
+            <li>O&M of Plant Electrical Systems</li>
+            <li>EHV & MV/LV Installations</li>
+          </ul>
+        </div>
         
-        <h3 className="mt-8 text-lg font-semibold">MISSION</h3>
+        <h3 className="mt-8 text-lg font-semibold">VISION</h3>
         <p className="font-medium">
-          To become premier EPC Contractor company globally
+          "To become premier EPC Contractor company globally."
         </p>
         
-        <h3 className="mt-6 text-lg font-semibold">VISION</h3>
+        <h3 className="mt-6 text-lg font-semibold">MISSION</h3>
         <ul className="list-disc space-y-2 pl-6">
           <li>Highest integrity</li>
           <li>Expertise</li>
@@ -50,34 +73,44 @@ const Index = () => {
 
         <h3 className="mt-6 text-lg font-semibold">VALUES</h3>
         <ul className="list-disc space-y-2 pl-6">
-          <li>Employee welfare, Safety</li>
+          <li>Employee welfare and safety</li>
           <li>Social awareness and responsibility</li>
         </ul>
 
         <h3 className="mt-8 text-lg font-semibold">ORGANIZATION STRUCTURE</h3>
         <p>
-          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments. Each department is supported by a hierarchical team of managers, engineers, supervisors, and assistants ensuring streamlined project execution and operational efficiency.
+          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments through a well-defined hierarchy ensuring streamlined project execution and operational efficiency.
         </p>
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          <div>
-            <h4 className="font-semibold text-sm mb-2">Executive Leadership</h4>
-            <ul className="list-disc space-y-1 pl-6 text-sm">
-              <li>CEO</li>
-              <li>GM</li>
-              <li>Factory Manager</li>
-              <li>Accounts Manager</li>
-              <li>Operation Head</li>
-            </ul>
+        <div className="mt-4 space-y-3">
+          <div className="bg-accent/10 border border-accent/30 rounded p-3 text-center">
+            <p className="font-bold text-accent">CEO</p>
+            <p className="text-xs text-muted-foreground">Mr. Dharmalingam C</p>
           </div>
-          <div>
-            <h4 className="font-semibold text-sm mb-2">Management Team</h4>
-            <ul className="list-disc space-y-1 pl-6 text-sm">
-              <li>Projects Manager</li>
-              <li>Purchase Manager</li>
-              <li>HR & Finance Manager</li>
-              <li>Design Engineers</li>
-              <li>Safety & QC Engineer</li>
-            </ul>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-accent/40" />
+          </div>
+          <div className="bg-muted rounded p-3 text-center">
+            <p className="font-semibold text-sm">GM – Projects</p>
+          </div>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-border" />
+          </div>
+          <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+            {["Business Development", "Purchase", "Accounts", "Contracts", "Govt. Liaisoning", "Factory"].map((dept) => (
+              <div key={dept} className="bg-muted rounded p-2 text-center">
+                <p className="font-medium text-xs">{dept}</p>
+              </div>
+            ))}
+          </div>
+          <div className="flex justify-center">
+            <div className="w-px h-4 bg-border" />
+          </div>
+          <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
+            {["Project Managers", "Engineers", "Supervisors", "Technicians"].map((role) => (
+              <div key={role} className="bg-muted rounded p-2 text-center">
+                <p className="font-medium text-xs">{role}</p>
+              </div>
+            ))}
           </div>
         </div>
       </Section>
@@ -161,14 +194,14 @@ const Index = () => {
 
       <Section id="projects" title="Selected Projects">
         <p className="mb-6">
-          Our portfolio includes successful project implementations across diverse industries, demonstrating our capability to handle complex electrical infrastructure requirements. We have executed end-to-end electrical projects across South India in Tamilnadu, Andhra, Telangana and Karnataka.
+          Our portfolio includes successful project implementations across diverse industries, demonstrating our capability to handle complex electrical infrastructure requirements. We have executed end-to-end electrical projects across South India — Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala.
         </p>
         
         <div className="grid gap-6 md:grid-cols-2">
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={phoenixMall} alt="Acquila Phoenix Mall" className="w-full h-48 object-cover" />
+            <img src={phoenixMall} alt="Aquila Phoenix Mall" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Acquila Phoenix Mall - Tower A</h4>
+              <h4 className="font-semibold text-base mb-1">Aquila Phoenix Mall</h4>
               <p className="text-sm text-muted-foreground mb-1">5L SQ.FT</p>
               <p className="text-sm text-muted-foreground">Hyderabad, Telangana</p>
             </div>
@@ -178,7 +211,7 @@ const Index = () => {
             <img src={sapLabs} alt="SAP Labs" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">SAP Labs</h4>
-              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground mb-1">IT Campus</p>
               <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
@@ -187,7 +220,7 @@ const Index = () => {
             <img src={jpMorgan} alt="JP Morgan" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">JP Morgan</h4>
-              <p className="text-sm text-muted-foreground mb-1">IT Department</p>
+              <p className="text-sm text-muted-foreground mb-1">IT Campus</p>
               <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
@@ -205,78 +238,87 @@ const Index = () => {
             <img src={medicalCollege} alt="Shri Satya Sai Medical College" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="font-semibold text-base mb-1">Shri Satya Sai Medical College</h4>
-              <p className="text-sm text-muted-foreground mb-1">Research Institute</p>
-              <p className="text-sm text-muted-foreground">Thiruporur, Chennai</p>
+              <p className="text-sm text-muted-foreground mb-1">Medical & Research Institute</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={substation765kv} alt="765kV/400kV AIS Substation" className="w-full h-48 object-cover" />
+            <img src={substation765kv} alt="BHEL Ariyalur 765kV/400kV AISS" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 765kV/400kV AIS Substation</h4>
-              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
-              <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu - TANTRANSCO</p>
+              <h4 className="font-semibold text-base mb-1">BHEL Ariyalur 765kV/400kV AISS</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project – Safety Certificate Awarded</p>
+              <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu – TANTRANSCO</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={medwayHospital} alt="Primeco New Star" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Primeco New Star</h4>
+              <p className="text-sm text-muted-foreground mb-1">Commercial Project</p>
+              <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={gis400kv} alt="400kV GIS Power Plant" className="w-full h-48 object-cover" />
+            <img src={gis400kv} alt="Udangudi Super Critical Thermal Power Project" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 400kV GIS Power Plant</h4>
-              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
-              <p className="text-sm text-muted-foreground">Udangudi STPP, Thoothukudi - TANGEDCO</p>
+              <h4 className="font-semibold text-base mb-1">Udangudi Super Critical Thermal Power Project</h4>
+              <p className="text-sm text-accent font-medium mb-1">2x660MW, 400kV GIS – Safety Approvals</p>
+              <p className="text-sm text-muted-foreground">Thoothukudi, Tamil Nadu – TANGEDCO</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={medwayHospital} alt="Medway Hospital" className="w-full h-48 object-cover" />
+            <img src={madrasFoodWalk} alt="Vidhyagyan School" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Medway Hospital</h4>
-              <p className="text-sm text-muted-foreground mb-1">Healthcare Facility</p>
-              <p className="text-sm text-muted-foreground">Kumbakonam, Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Vidhyagyan School</h4>
+              <p className="text-sm text-muted-foreground mb-1">Educational Institution</p>
+              <p className="text-sm text-muted-foreground">Thiruporur, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={madrasFoodWalk} alt="Madras Food Walk" className="w-full h-48 object-cover" />
+            <img src={natcoPharma} alt="TCPL Packaging Ltd" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Madras Food Walk</h4>
-              <p className="text-sm text-muted-foreground mb-1">Commercial Complex</p>
+              <h4 className="font-semibold text-base mb-1">TCPL Packaging Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={smileElectronics} alt="Smile Electronics" className="w-full h-48 object-cover" />
+            <img src={deltaElectronics} alt="Harris & Menuk" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Smile Electronics Limited</h4>
-              <p className="text-sm text-muted-foreground mb-1">Powered by Zetwerk</p>
-              <p className="text-sm text-muted-foreground">Thiruvallur, Tamil Nadu</p>
-            </div>
-          </div>
-
-          <div className="border border-border rounded-lg overflow-hidden">
-            <img src={deltaElectronics} alt="Delta Electronics" className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Delta Electronics India Pvt Ltd</h4>
-              <p className="text-sm text-muted-foreground mb-1">Solar Power Plant Installation</p>
-              <p className="text-sm text-muted-foreground">Krishnagiri, Tamil Nadu</p>
-            </div>
-          </div>
-
-          <div className="border border-border rounded-lg overflow-hidden">
-            <img src={natcoPharma} alt="Natco Pharma" className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Natco Pharma Limited</h4>
-              <p className="text-sm text-muted-foreground mb-1">Pharmaceutical Industry</p>
+              <h4 className="font-semibold text-base mb-1">Harris & Menuk</h4>
+              <p className="text-sm text-muted-foreground mb-1">Industrial Project</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={smileElectronics} alt="Smile Electronics Ltd" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Smile Electronics Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+            </div>
+          </div>
+
+          <div className="border border-border rounded-lg overflow-hidden">
+            <img src={deltaElectronics} alt="Taichuang Engineering Solar Project" className="w-full h-48 object-cover" />
+            <div className="p-4">
+              <h4 className="font-semibold text-base mb-1">Taichuang Engineering India Pvt Ltd</h4>
+              <p className="text-sm text-accent font-medium mb-1">Solar Project – 100kW × 3 Nos.</p>
+              <p className="text-sm text-muted-foreground">Tamil Nadu</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 p-4 bg-muted rounded-lg">
           <p className="text-sm">
-            <strong>Note:</strong> All projects completed with full safety certifications and regulatory compliance from the Government of Tamil Nadu Electrical Inspectorate and Central Electricity Authority.
+            <strong>Note:</strong> All projects completed with full safety certifications and regulatory compliance from the Government of Tamil Nadu Electrical Inspectorate and Central Electricity Authority. Safety certificates and transformer approval certificates available on request.
           </p>
         </div>
       </Section>
@@ -566,7 +608,7 @@ const Index = () => {
           <div className="bg-muted p-4 rounded-lg">
             <h4 className="font-semibold mb-2">Service Areas</h4>
             <p className="text-sm">
-              We provide electrical contracting services across South India including Tamil Nadu, Andhra Pradesh, Telangana, and Karnataka. Our team of dedicated professionals is ready to serve industries with comprehensive electrical solutions.
+              We provide electrical contracting services across South India including Tamil Nadu, Andhra Pradesh, Telangana, Karnataka, and Kerala. Our team of dedicated professionals is ready to serve industries with comprehensive electrical solutions.
             </p>
           </div>
         </div>
