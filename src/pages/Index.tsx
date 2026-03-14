@@ -16,6 +16,14 @@ import madrasFoodWalk from "@/assets/projects/madras-food-walk.jpg";
 import smileElectronics from "@/assets/projects/smile-electronics-new.jpg";
 import deltaElectronics from "@/assets/projects/delta-electronics-new.jpg";
 import natcoPharma from "@/assets/projects/natco-pharma-new.jpg";
+import mepSubstation from "@/assets/projects/mep-substation.jpg";
+import mepCableTray from "@/assets/projects/mep-cable-tray.jpg";
+import mepHvac from "@/assets/projects/mep-hvac.jpg";
+import mepPlumbing from "@/assets/projects/mep-plumbing.jpg";
+import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
+import mepPump from "@/assets/projects/mep-pump.jpg";
+import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
+import mepDucting from "@/assets/projects/mep-ducting.jpg";
 
 const Index = () => {
   return (
