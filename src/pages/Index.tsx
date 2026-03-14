@@ -26,23 +26,17 @@ const Index = () => {
       <Section id="about" title="About Us" banner={electricalPanelBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
-          KEPL EPC INFRA, a Professional Electrical Contracting Company, was established in 2006 as a Private Limited Company headquartered in Chennai. We have executed several E.H.V and M.V / L.V installations for a wide spectrum of industries for more than two decades. We are Super "A" Grade Licensed Electrical Contractor (ESA 542) issued by the Electrical Licensing Board of the Government of Tamil Nadu and an ISO 9001:2015 certified company.
+          KEPL EPC INFRA is a professional MEP turnkey solutions company with over two decades of experience in executing a wide range of MEP projects, including E.H.V and M.V / L.V electrical installations, for a diverse spectrum of industries. We are a Super "A" Grade Licensed Electrical Contractor issued by the Electrical Licensing Board.
         </p>
         <p>
-          With more than 20 years of excellence, we have executed end-to-end electrical projects across South India — Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala. We have expanded into diverse domains including turnkey MEP contracting, LT switchgear manufacturing, energy-saving systems, solar power plants, and O&M of plant electrical systems.
+          KEPL EPC INFRA was established in 2006 as a Private Limited Company and is headquartered in Chennai. The company is led by our CEO, Mr. Dharmalingam C, an electrical engineer by profession, who holds a B.E (Hons) degree from a premier institution in South India. Under his leadership, we have consistently delivered high-quality engineering solutions and built a strong reputation in the industry.
         </p>
         <p>
-          An excellent highly professional and dedicated team of senior managers, project engineers and other technical staff is our strongest asset, which delivers best results to our esteemed clients. In short, KEPL stands for Dedicated Smart Engineers (DSE) – Always Ready to serve industries with comprehensive electrical solutions.
+          With more than 20 years of proven excellence, we have successfully executed numerous MEP projects across South India, including Tamil Nadu, Karnataka, Andhra Pradesh, Telangana, and Kerala. Over the years, we have expanded our corporate footprint into multiple domains such as: Turnkey MEP contracting projects, Manufacturing of Low Tension (LT) switchgear panels, Energy-saving systems, Solar power plants, Operation and maintenance of total plant electrical systems.
         </p>
-
-        <div className="mt-6 bg-accent/10 border border-accent/30 rounded-lg p-5">
-          <h4 className="font-semibold text-base mb-2">CEO & FOUNDER</h4>
-          <p className="font-semibold text-accent">Mr. Dharmalingam C</p>
-          <p className="text-sm text-muted-foreground">B.E (Hons), Electrical Engineer</p>
-          <p className="text-sm mt-2">
-            With decades of hands-on experience in the electrical contracting industry, Mr. Dharmalingam leads KEPL EPC INFRA with a vision for excellence, safety, and innovation across all projects.
-          </p>
-        </div>
+        <p>
+          Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
+        </p>
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
         <div className="mt-3 grid gap-2 md:grid-cols-2">
