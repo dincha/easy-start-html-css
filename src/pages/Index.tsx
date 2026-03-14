@@ -315,8 +315,19 @@ const Index = () => {
               <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
-          </div>
+        </div>
 
+        <h3 className="mt-10 text-lg font-semibold">MEP IMAGES</h3>
+        <div className="mt-4 grid gap-4 grid-cols-2 md:grid-cols-4">
+          <img src={mepSubstation} alt="Substation Installation" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepCableTray} alt="Cable Tray & Conduit Work" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepHvac} alt="HVAC Installation" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepPlumbing} alt="Plumbing & Piping Systems" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepSwitchgear} alt="LV Switchgear Panels" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepPump} alt="Pump Room Installation" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepFireProtection} alt="Fire Protection Systems" className="w-full h-40 object-cover rounded-lg border border-border" />
+          <img src={mepDucting} alt="Ducting & Ventilation" className="w-full h-40 object-cover rounded-lg border border-border" />
+        </div>
           <div className="border border-border rounded-lg overflow-hidden">
             <img src={deltaElectronics} alt="Taichuang Engineering Solar Project" className="w-full h-48 object-cover" />
             <div className="p-4">
