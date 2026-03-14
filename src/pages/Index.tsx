@@ -556,15 +556,15 @@ const Index = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <p>
-                    Shop No.1, Guru Basava Building<br />
-                    Site No.22, 2nd Cross<br />
-                    Raghuvanahalli Off Kanakapura<br />
-                    Main Road, Bangalore - 560 062
+                    # 401, 4th Floor, Surya Prema,<br />
+                    # 15, Plot No:1&2, 1st Cross, Manjunatha Nagar,<br />
+                    Raghuvanahalli, Kanakapura Main Road,<br />
+                    Bangalore, Karnataka - 560 062
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                  <span>+91-89259 32872</span>
+                  <span>+91-99000 13567</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
