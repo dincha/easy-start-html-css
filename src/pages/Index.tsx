@@ -46,14 +46,6 @@ const Index = () => {
           Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
         </p>
 
-        <div className="mt-6 bg-accent/10 border border-accent/30 rounded-lg p-5">
-          <h4 className="font-semibold text-base mb-2">CEO & FOUNDER</h4>
-          <p className="font-semibold text-accent">Mr. Dharmalingam C</p>
-          <p className="text-sm text-muted-foreground">B.E (Hons), Electrical Engineer from a Premier Institution in South India</p>
-          <p className="text-sm mt-2">
-            Under his visionary leadership, KEPL EPC INFRA has consistently delivered high-quality engineering solutions and built a strong reputation across South India for reliable, innovative, and end-to-end electrical solutions.
-          </p>
-        </div>
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
         <div className="mt-3 grid gap-2 md:grid-cols-2">
