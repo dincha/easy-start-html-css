@@ -82,38 +82,28 @@ const Index = () => {
 
         <h3 className="mt-8 text-lg font-semibold">ORGANIZATION STRUCTURE</h3>
         <p>
-          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments through a well-defined hierarchy ensuring streamlined project execution and operational efficiency.
+          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments. Each department is supported by a hierarchical team of managers, engineers, supervisors, and assistants ensuring streamlined project execution and operational efficiency.
         </p>
-        <div className="mt-4 space-y-3">
-          <div className="bg-accent/10 border border-accent/30 rounded p-3 text-center">
-            <p className="font-bold text-accent">CEO</p>
-            <p className="text-xs text-muted-foreground">Mr. Dharmalingam C</p>
+        <div className="mt-4 grid gap-6 md:grid-cols-2">
+          <div>
+            <h4 className="font-semibold text-sm mb-2">Executive Leadership</h4>
+            <ul className="list-disc space-y-1 pl-6 text-sm">
+              <li>CEO</li>
+              <li>GM</li>
+              <li>Factory Manager</li>
+              <li>Accounts Manager</li>
+              <li>Operation Head</li>
+            </ul>
           </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-accent/40" />
-          </div>
-          <div className="bg-muted rounded p-3 text-center">
-            <p className="font-semibold text-sm">GM – Projects</p>
-          </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-border" />
-          </div>
-          <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-            {["Business Development", "Purchase", "Accounts", "Contracts", "Govt. Liaisoning", "Factory"].map((dept) => (
-              <div key={dept} className="bg-muted rounded p-2 text-center">
-                <p className="font-medium text-xs">{dept}</p>
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-border" />
-          </div>
-          <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
-            {["Project Managers", "Engineers", "Supervisors", "Technicians"].map((role) => (
-              <div key={role} className="bg-muted rounded p-2 text-center">
-                <p className="font-medium text-xs">{role}</p>
-              </div>
-            ))}
+          <div>
+            <h4 className="font-semibold text-sm mb-2">Management Team</h4>
+            <ul className="list-disc space-y-1 pl-6 text-sm">
+              <li>Projects Manager</li>
+              <li>Purchase Manager</li>
+              <li>HR & Finance Manager</li>
+              <li>Design Engineers</li>
+              <li>Safety & QC Engineer</li>
+            </ul>
           </div>
         </div>
       </Section>
