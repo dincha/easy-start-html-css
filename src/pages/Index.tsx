@@ -361,8 +361,42 @@ const Index = () => {
           We have served a wide range of clients across various industries including automotive, IT, pharmaceutical, healthcare, manufacturing, and infrastructure sectors in South India.
         </p>
         
-        <div className="mt-4 mb-8">
-          <img src={clientLogos} alt="Our Client Logos" className="w-full rounded-lg border border-border" />
+        <div className="mt-4 mb-8 grid grid-cols-4 md:grid-cols-6 gap-4">
+          {[
+            { src: clientDrEnterprise, alt: "DR Enterprise" },
+            { src: clientSmile, alt: "Smile" },
+            { src: clientTcpl, alt: "TCPL" },
+            { src: clientJmi, alt: "JMI" },
+            { src: clientHiranandani, alt: "Hiranandani" },
+            { src: clientIhd, alt: "IHD Industries" },
+            { src: clientDsc, alt: "DSC" },
+            { src: clientDoosan, alt: "Doosan" },
+            { src: clientBhel, alt: "BHEL" },
+            { src: clientSchwing, alt: "Schwing Stetter" },
+            { src: clientNatco, alt: "Natco Pharma" },
+            { src: clientCastwel, alt: "Castwel Auto Parts" },
+            { src: clientYoungBuhmwoo, alt: "Young Buhmwoo India" },
+            { src: clientSkc, alt: "SKC" },
+            { src: clientDaejung, alt: "Daejung" },
+            { src: clientInziControls, alt: "Inzi Controls" },
+            { src: clientSapl, alt: "SAPL" },
+            { src: clientDaesung, alt: "Daesung Parts" },
+            { src: clientDaebu, alt: "Daebu" },
+            { src: clientDoowon, alt: "Doowon" },
+            { src: clientLeewon, alt: "Leewon" },
+            { src: clientTte, alt: "TTE" },
+            { src: clientPosco, alt: "POSCO India" },
+            { src: clientVidyagyan, alt: "Vidyagyan" },
+            { src: clientTneb, alt: "TNEB" },
+            { src: clientWabag, alt: "WABAG" },
+            { src: clientMyoungShin, alt: "Myoung Shin India" },
+            { src: clientMedopharm, alt: "Medopharm" },
+            { src: clientTangedco, alt: "TANGEDCO" },
+          ].map((logo, index) => (
+            <div key={index} className="bg-white border border-border rounded-lg p-3 flex items-center justify-center h-20">
+              <img src={logo.src} alt={logo.alt} className="max-h-14 max-w-full object-contain" />
+            </div>
+          ))}
         </div>
 
         <div className="grid gap-3 md:grid-cols-3 text-sm">
