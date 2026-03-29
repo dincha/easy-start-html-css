@@ -332,6 +332,10 @@ const Index = () => {
         <p className="mb-4">
           We have served a wide range of clients across various industries including automotive, IT, pharmaceutical, healthcare, manufacturing, and infrastructure sectors in South India.
         </p>
+        
+        <div className="mt-4 mb-8">
+          <img src={clientLogos} alt="Our Client Logos" className="w-full rounded-lg border border-border" />
+        </div>
 
         <div className="grid gap-3 md:grid-cols-3 text-sm">
           <div className="bg-muted p-3 rounded">
