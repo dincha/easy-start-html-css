@@ -122,6 +122,9 @@ const Index = () => {
           <li>Manufacturing of low-tension switchgear panels</li>
           <li>Energy saving systems</li>
           <li>Total plant electrical systems maintenance</li>
+          <li>MEP (Mechanical, Electrical & Plumbing) Solutions</li>
+          <li>Plumbing & Fire Protection Systems</li>
+          <li>HVAC (Heating, Ventilation & Air Conditioning)</li>
         </ul>
       </Section>
 
