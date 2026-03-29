@@ -24,7 +24,35 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
-import clientLogos from "@/assets/client-logos.svg";
+import clientDrEnterprise from "@/assets/clients/dr-enterprise.jpg";
+import clientSmile from "@/assets/clients/smile.jpg";
+import clientTcpl from "@/assets/clients/tcpl.jpg";
+import clientJmi from "@/assets/clients/jmi.jpg";
+import clientHiranandani from "@/assets/clients/hiranandani.jpg";
+import clientIhd from "@/assets/clients/ihd-industries.jpg";
+import clientDsc from "@/assets/clients/dsc.jpg";
+import clientDoosan from "@/assets/clients/doosan.jpg";
+import clientBhel from "@/assets/clients/bhel.jpg";
+import clientSchwing from "@/assets/clients/schwing-stetter.jpg";
+import clientNatco from "@/assets/clients/natco.jpg";
+import clientCastwel from "@/assets/clients/castwel.jpg";
+import clientYoungBuhmwoo from "@/assets/clients/young-buhmwoo.jpg";
+import clientSkc from "@/assets/clients/skc.jpg";
+import clientDaejung from "@/assets/clients/daejung.jpg";
+import clientInziControls from "@/assets/clients/inzi-controls.jpg";
+import clientSapl from "@/assets/clients/sapl.jpg";
+import clientDaesung from "@/assets/clients/daesung.jpg";
+import clientDaebu from "@/assets/clients/daebu.jpg";
+import clientDoowon from "@/assets/clients/doowon.jpg";
+import clientLeewon from "@/assets/clients/leewon.png";
+import clientTte from "@/assets/clients/tte.jpg";
+import clientPosco from "@/assets/clients/posco.png";
+import clientVidyagyan from "@/assets/clients/vidyagyan.jpg";
+import clientTneb from "@/assets/clients/tneb.jpg";
+import clientWabag from "@/assets/clients/wabag.jpg";
+import clientMyoungShin from "@/assets/clients/myoung-shin.png";
+import clientMedopharm from "@/assets/clients/medopharm.png";
+import clientTangedco from "@/assets/clients/tangedco.jpg";
 
 const Index = () => {
   return (
@@ -333,8 +361,42 @@ const Index = () => {
           We have served a wide range of clients across various industries including automotive, IT, pharmaceutical, healthcare, manufacturing, and infrastructure sectors in South India.
         </p>
         
-        <div className="mt-4 mb-8">
-          <img src={clientLogos} alt="Our Client Logos" className="w-full rounded-lg border border-border" />
+        <div className="mt-4 mb-8 grid grid-cols-4 md:grid-cols-6 gap-4">
+          {[
+            { src: clientDrEnterprise, alt: "DR Enterprise" },
+            { src: clientSmile, alt: "Smile" },
+            { src: clientTcpl, alt: "TCPL" },
+            { src: clientJmi, alt: "JMI" },
+            { src: clientHiranandani, alt: "Hiranandani" },
+            { src: clientIhd, alt: "IHD Industries" },
+            { src: clientDsc, alt: "DSC" },
+            { src: clientDoosan, alt: "Doosan" },
+            { src: clientBhel, alt: "BHEL" },
+            { src: clientSchwing, alt: "Schwing Stetter" },
+            { src: clientNatco, alt: "Natco Pharma" },
+            { src: clientCastwel, alt: "Castwel Auto Parts" },
+            { src: clientYoungBuhmwoo, alt: "Young Buhmwoo India" },
+            { src: clientSkc, alt: "SKC" },
+            { src: clientDaejung, alt: "Daejung" },
+            { src: clientInziControls, alt: "Inzi Controls" },
+            { src: clientSapl, alt: "SAPL" },
+            { src: clientDaesung, alt: "Daesung Parts" },
+            { src: clientDaebu, alt: "Daebu" },
+            { src: clientDoowon, alt: "Doowon" },
+            { src: clientLeewon, alt: "Leewon" },
+            { src: clientTte, alt: "TTE" },
+            { src: clientPosco, alt: "POSCO India" },
+            { src: clientVidyagyan, alt: "Vidyagyan" },
+            { src: clientTneb, alt: "TNEB" },
+            { src: clientWabag, alt: "WABAG" },
+            { src: clientMyoungShin, alt: "Myoung Shin India" },
+            { src: clientMedopharm, alt: "Medopharm" },
+            { src: clientTangedco, alt: "TANGEDCO" },
+          ].map((logo, index) => (
+            <div key={index} className="bg-white border border-border rounded-lg p-3 flex items-center justify-center h-20">
+              <img src={logo.src} alt={logo.alt} className="max-h-14 max-w-full object-contain" />
+            </div>
+          ))}
         </div>
 
         <div className="grid gap-3 md:grid-cols-3 text-sm">
