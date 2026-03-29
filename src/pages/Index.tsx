@@ -24,7 +24,35 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
-import clientLogos from "@/assets/client-logos.svg";
+import clientDrEnterprise from "@/assets/clients/dr-enterprise.jpg";
+import clientSmile from "@/assets/clients/smile.jpg";
+import clientTcpl from "@/assets/clients/tcpl.jpg";
+import clientJmi from "@/assets/clients/jmi.jpg";
+import clientHiranandani from "@/assets/clients/hiranandani.jpg";
+import clientIhd from "@/assets/clients/ihd-industries.jpg";
+import clientDsc from "@/assets/clients/dsc.jpg";
+import clientDoosan from "@/assets/clients/doosan.jpg";
+import clientBhel from "@/assets/clients/bhel.jpg";
+import clientSchwing from "@/assets/clients/schwing-stetter.jpg";
+import clientNatco from "@/assets/clients/natco.jpg";
+import clientCastwel from "@/assets/clients/castwel.jpg";
+import clientYoungBuhmwoo from "@/assets/clients/young-buhmwoo.jpg";
+import clientSkc from "@/assets/clients/skc.jpg";
+import clientDaejung from "@/assets/clients/daejung.jpg";
+import clientInziControls from "@/assets/clients/inzi-controls.jpg";
+import clientSapl from "@/assets/clients/sapl.jpg";
+import clientDaesung from "@/assets/clients/daesung.jpg";
+import clientDaebu from "@/assets/clients/daebu.jpg";
+import clientDoowon from "@/assets/clients/doowon.jpg";
+import clientLeewon from "@/assets/clients/leewon.png";
+import clientTte from "@/assets/clients/tte.jpg";
+import clientPosco from "@/assets/clients/posco.png";
+import clientVidyagyan from "@/assets/clients/vidyagyan.jpg";
+import clientTneb from "@/assets/clients/tneb.jpg";
+import clientWabag from "@/assets/clients/wabag.jpg";
+import clientMyoungShin from "@/assets/clients/myoung-shin.png";
+import clientMedopharm from "@/assets/clients/medopharm.png";
+import clientTangedco from "@/assets/clients/tangedco.jpg";
 
 const Index = () => {
   return (
