@@ -24,6 +24,7 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
+import clientLogos from "@/assets/client-logos.svg";
 
 const Index = () => {
   return (
@@ -46,14 +47,6 @@ const Index = () => {
           Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
         </p>
 
-        <div className="mt-6 bg-accent/10 border border-accent/30 rounded-lg p-5">
-          <h4 className="font-semibold text-base mb-2">CEO & FOUNDER</h4>
-          <p className="font-semibold text-accent">Mr. Dharmalingam C</p>
-          <p className="text-sm text-muted-foreground">B.E (Hons), Electrical Engineer from a Premier Institution in South India</p>
-          <p className="text-sm mt-2">
-            Under his visionary leadership, KEPL EPC INFRA has consistently delivered high-quality engineering solutions and built a strong reputation across South India for reliable, innovative, and end-to-end electrical solutions.
-          </p>
-        </div>
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
         <div className="mt-3 grid gap-2 md:grid-cols-2">
@@ -90,38 +83,28 @@ const Index = () => {
 
         <h3 className="mt-8 text-lg font-semibold">ORGANIZATION STRUCTURE</h3>
         <p>
-          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments through a well-defined hierarchy ensuring streamlined project execution and operational efficiency.
+          The organizational structure of KEPL EPC INFRA is led by the CEO overseeing key functional departments. Each department is supported by a hierarchical team of managers, engineers, supervisors, and assistants ensuring streamlined project execution and operational efficiency.
         </p>
-        <div className="mt-4 space-y-3">
-          <div className="bg-accent/10 border border-accent/30 rounded p-3 text-center">
-            <p className="font-bold text-accent">CEO</p>
-            <p className="text-xs text-muted-foreground">Mr. Dharmalingam C</p>
+        <div className="mt-4 grid gap-6 md:grid-cols-2">
+          <div>
+            <h4 className="font-semibold text-sm mb-2">Executive Leadership</h4>
+            <ul className="list-disc space-y-1 pl-6 text-sm">
+              <li>CEO</li>
+              <li>GM</li>
+              <li>Factory Manager</li>
+              <li>Accounts Manager</li>
+              <li>Operation Head</li>
+            </ul>
           </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-accent/40" />
-          </div>
-          <div className="bg-muted rounded p-3 text-center">
-            <p className="font-semibold text-sm">GM – Projects</p>
-          </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-border" />
-          </div>
-          <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-            {["Business Development", "Purchase", "Accounts", "Contracts", "Govt. Liaisoning", "Factory"].map((dept) => (
-              <div key={dept} className="bg-muted rounded p-2 text-center">
-                <p className="font-medium text-xs">{dept}</p>
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-center">
-            <div className="w-px h-4 bg-border" />
-          </div>
-          <div className="grid gap-2 grid-cols-2 md:grid-cols-4">
-            {["Project Managers", "Engineers", "Supervisors", "Technicians"].map((role) => (
-              <div key={role} className="bg-muted rounded p-2 text-center">
-                <p className="font-medium text-xs">{role}</p>
-              </div>
-            ))}
+          <div>
+            <h4 className="font-semibold text-sm mb-2">Management Team</h4>
+            <ul className="list-disc space-y-1 pl-6 text-sm">
+              <li>Projects Manager</li>
+              <li>Purchase Manager</li>
+              <li>HR & Finance Manager</li>
+              <li>Design Engineers</li>
+              <li>Safety & QC Engineer</li>
+            </ul>
           </div>
         </div>
       </Section>
@@ -140,6 +123,9 @@ const Index = () => {
           <li>Manufacturing of low-tension switchgear panels</li>
           <li>Energy saving systems</li>
           <li>Total plant electrical systems maintenance</li>
+          <li>MEP (Mechanical, Electrical & Plumbing) Solutions</li>
+          <li>Plumbing & Fire Protection Systems</li>
+          <li>HVAC (Heating, Ventilation & Air Conditioning)</li>
         </ul>
       </Section>
 
@@ -255,74 +241,65 @@ const Index = () => {
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={substation765kv} alt="BHEL Ariyalur 765kV/400kV AISS" className="w-full h-48 object-cover" />
+            <img src={substation765kv} alt="Tamil Nadu First 765kV/400kV AIS Substation" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">BHEL Ariyalur 765kV/400kV AISS</h4>
-              <p className="text-sm text-accent font-medium mb-1">Landmark Project – Safety Certificate Awarded</p>
+              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 765kV/400kV AIS Substation</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
               <p className="text-sm text-muted-foreground">Ariyalur, Tamil Nadu – TANTRANSCO</p>
             </div>
           </div>
 
-          <div className="border border-border rounded-lg overflow-hidden">
-            <img src={medwayHospital} alt="Primeco New Star" className="w-full h-48 object-cover" />
-            <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Primeco New Star</h4>
-              <p className="text-sm text-muted-foreground mb-1">Commercial Project</p>
-              <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
-            </div>
-          </div>
-
           <div className="border border-border rounded-lg overflow-hidden bg-accent/5">
-            <img src={gis400kv} alt="Udangudi Super Critical Thermal Power Project" className="w-full h-48 object-cover" />
+            <img src={gis400kv} alt="Tamil Nadu First 400kV GIS Power Plant" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Udangudi Super Critical Thermal Power Project</h4>
-              <p className="text-sm text-accent font-medium mb-1">2x660MW, 400kV GIS – Safety Approvals</p>
-              <p className="text-sm text-muted-foreground">Thoothukudi, Tamil Nadu – TANGEDCO</p>
+              <h4 className="font-semibold text-base mb-1">Tamil Nadu First 400kV GIS Power Plant</h4>
+              <p className="text-sm text-accent font-medium mb-1">Landmark Project</p>
+              <p className="text-sm text-muted-foreground">Udangudi STPP, Thoothukudi – TANGEDCO</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={madrasFoodWalk} alt="Vidhyagyan School" className="w-full h-48 object-cover" />
+            <img src={medwayHospital} alt="Medway Hospital" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Vidhyagyan School</h4>
-              <p className="text-sm text-muted-foreground mb-1">Educational Institution</p>
-              <p className="text-sm text-muted-foreground">Thiruporur, Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Medway Hospital</h4>
+              <p className="text-sm text-muted-foreground mb-1">Healthcare Facility</p>
+              <p className="text-sm text-muted-foreground">Kumbakonam, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={natcoPharma} alt="TCPL Packaging Ltd" className="w-full h-48 object-cover" />
+            <img src={madrasFoodWalk} alt="Madras Food Walk" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">TCPL Packaging Ltd</h4>
-              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
+              <h4 className="font-semibold text-base mb-1">Madras Food Walk</h4>
+              <p className="text-sm text-muted-foreground mb-1">Commercial Complex</p>
               <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={deltaElectronics} alt="Harris & Menuk" className="w-full h-48 object-cover" />
+            <img src={smileElectronics} alt="Smile Electronics Limited" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Harris & Menuk</h4>
-              <p className="text-sm text-muted-foreground mb-1">Industrial Project</p>
-              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Smile Electronics Limited</h4>
+              <p className="text-sm text-muted-foreground mb-1">Powered by Zetwerk</p>
+              <p className="text-sm text-muted-foreground">Thiruvallur, Tamil Nadu</p>
             </div>
           </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={smileElectronics} alt="Smile Electronics Ltd" className="w-full h-48 object-cover" />
+            <img src={deltaElectronics} alt="Delta Electronics India Pvt Ltd" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Smile Electronics Ltd</h4>
-              <p className="text-sm text-accent font-medium mb-1">Transformer Approval Certificate</p>
-              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Delta Electronics India Pvt Ltd</h4>
+              <p className="text-sm text-muted-foreground mb-1">Solar Power Plant Installation</p>
+              <p className="text-sm text-muted-foreground">Krishnagiri, Tamil Nadu</p>
             </div>
-        </div>
+          </div>
 
           <div className="border border-border rounded-lg overflow-hidden">
-            <img src={deltaElectronics} alt="Taichuang Engineering Solar Project" className="w-full h-48 object-cover" />
+            <img src={natcoPharma} alt="Natco Pharma Limited" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <h4 className="font-semibold text-base mb-1">Taichuang Engineering India Pvt Ltd</h4>
-              <p className="text-sm text-accent font-medium mb-1">Solar Project – 100kW × 3 Nos.</p>
-              <p className="text-sm text-muted-foreground">Tamil Nadu</p>
+              <h4 className="font-semibold text-base mb-1">Natco Pharma Limited</h4>
+              <p className="text-sm text-muted-foreground mb-1">Pharmaceutical Industry</p>
+              <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
             </div>
           </div>
         </div>
@@ -355,6 +332,10 @@ const Index = () => {
         <p className="mb-4">
           We have served a wide range of clients across various industries including automotive, IT, pharmaceutical, healthcare, manufacturing, and infrastructure sectors in South India.
         </p>
+        
+        <div className="mt-4 mb-8">
+          <img src={clientLogos} alt="Our Client Logos" className="w-full rounded-lg border border-border" />
+        </div>
 
         <div className="grid gap-3 md:grid-cols-3 text-sm">
           <div className="bg-muted p-3 rounded">
