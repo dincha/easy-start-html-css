@@ -24,6 +24,7 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
+import clientLogos from "@/assets/client-logos.svg";
 
 const Index = () => {
   return (
