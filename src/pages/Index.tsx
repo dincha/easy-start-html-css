@@ -24,7 +24,6 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
-import mepMontage from "@/assets/mep-services-montage.jpg";
 import clientDrEnterprise from "@/assets/clients/dr-enterprise.jpg";
 import clientSmile from "@/assets/clients/smile.jpg";
 import clientTcpl from "@/assets/clients/tcpl.jpg";
