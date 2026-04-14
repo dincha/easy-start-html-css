@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import { Phone, Mail, Globe, MapPin, Building2 } from "lucide-react";
-import mepBanner from "@/assets/mep-banner.jpg";
+import mepCollageBanner from "@/assets/mep-collage-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
 import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
 import sapLabs from "@/assets/projects/sap-labs.jpg";
@@ -24,7 +24,6 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
-import mepMontage from "@/assets/mep-services-montage.jpg";
 import clientDrEnterprise from "@/assets/clients/dr-enterprise.jpg";
 import clientSmile from "@/assets/clients/smile.jpg";
 import clientTcpl from "@/assets/clients/tcpl.jpg";
@@ -61,7 +60,7 @@ const Index = () => {
       <Header />
       <Hero />
 
-      <Section id="about" title="About Us" banner={mepBanner}>
+      <Section id="about" title="About Us" banner={mepCollageBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
           KEPL EPC INFRA is a professional MEP turnkey solutions company with over two decades of experience in executing a wide range of MEP projects, including E.H.V and M.V / L.V electrical installations, for a diverse spectrum of industries. We are a Super "A" Grade Licensed Electrical Contractor issued by the Electrical Licensing Board.
@@ -76,9 +75,8 @@ const Index = () => {
           Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
         </p>
 
-        <div className="mt-6 overflow-hidden rounded-lg shadow-md max-w-md mx-auto">
-          <img src={mepMontage} alt="MEP Services - Mechanical, Electrical, and Plumbing" loading="lazy" width={960} height={384} className="w-full h-auto object-cover" />
-        </div>
+
+
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
         <div className="mt-3 grid gap-2 md:grid-cols-2">
