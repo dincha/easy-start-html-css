@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import { Phone, Mail, Globe, MapPin, Building2 } from "lucide-react";
-import electricalPanelBanner from "@/assets/electrical-panel-banner.jpg";
+import mepBanner from "@/assets/mep-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
 import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
 import sapLabs from "@/assets/projects/sap-labs.jpg";
@@ -61,7 +61,7 @@ const Index = () => {
       <Header />
       <Hero />
 
-      <Section id="about" title="About Us" banner={electricalPanelBanner}>
+      <Section id="about" title="About Us" banner={mepBanner}>
         <h3 className="text-lg font-semibold">COMPANY PROFILE</h3>
         <p>
           KEPL EPC INFRA is a professional MEP turnkey solutions company with over two decades of experience in executing a wide range of MEP projects, including E.H.V and M.V / L.V electrical installations, for a diverse spectrum of industries. We are a Super "A" Grade Licensed Electrical Contractor issued by the Electrical Licensing Board.
