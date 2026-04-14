@@ -24,6 +24,7 @@ import mepSwitchgear from "@/assets/projects/mep-switchgear.jpg";
 import mepPump from "@/assets/projects/mep-pump.jpg";
 import mepFireProtection from "@/assets/projects/mep-fire-protection.jpg";
 import mepDucting from "@/assets/projects/mep-ducting.jpg";
+import mepMontage from "@/assets/mep-services-montage.jpg";
 import clientDrEnterprise from "@/assets/clients/dr-enterprise.jpg";
 import clientSmile from "@/assets/clients/smile.jpg";
 import clientTcpl from "@/assets/clients/tcpl.jpg";
@@ -75,6 +76,9 @@ const Index = () => {
           Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
         </p>
 
+        <div className="mt-6 overflow-hidden rounded-lg shadow-lg">
+          <img src={mepMontage} alt="MEP Services - Mechanical, Electrical, and Plumbing" loading="lazy" width={1920} height={768} className="w-full h-auto object-cover" />
+        </div>
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
         <div className="mt-3 grid gap-2 md:grid-cols-2">
