@@ -76,8 +76,8 @@ const Index = () => {
           Our greatest strength lies in our highly professional and dedicated team of senior managers, project engineers, and skilled technical staff, who consistently deliver optimal results and exceed client expectations. In short, DSE stands for "Dedicated Smart Engineers" – always ready to serve industries with reliable, innovative, and end-to-end electrical solutions.
         </p>
 
-        <div className="mt-6 overflow-hidden rounded-lg shadow-lg">
-          <img src={mepMontage} alt="MEP Services - Mechanical, Electrical, and Plumbing" loading="lazy" width={1920} height={768} className="w-full h-auto object-cover" />
+        <div className="mt-6 overflow-hidden rounded-lg shadow-md max-w-md mx-auto">
+          <img src={mepMontage} alt="MEP Services - Mechanical, Electrical, and Plumbing" loading="lazy" width={960} height={384} className="w-full h-auto object-cover" />
         </div>
 
         <h3 className="mt-8 text-lg font-semibold">OUR DOMAINS</h3>
