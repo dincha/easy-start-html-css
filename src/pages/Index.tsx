@@ -467,10 +467,8 @@ const Index = () => {
           <p className="text-sm">
             <strong>Issued by:</strong> The Electrical Licensing Board, Government of Tamil Nadu
           </p>
-          <p className="text-sm mt-2">
-            Authorized to carry out all types of electrical works with no limitations in voltage or capacity in the state of Tamil Nadu. This licence is issued subject to the regulation issued by the Government of Tamil Nadu under the Regulation 2g(1) of The Central Electricity Authority (Measures Relating to Safety and Electric Supply) Regulations, 2010.
-          </p>
         </div>
+
         
         <h3 className="mt-8 text-lg font-semibold">SAFETY CERTIFICATES</h3>
         <p>
@@ -479,8 +477,6 @@ const Index = () => {
         <ul className="list-disc space-y-2 pl-6 mt-3">
           <li>Chief Electrical Inspector to Government of Tamil Nadu</li>
           <li>Central Electricity Authority (CEA), Regional Inspectorial Organisation</li>
-          <li>Government of India, Ministry of Power</li>
-          <li>Tamil Nadu Electrical Inspectorate</li>
         </ul>
 
         <h3 className="mt-8 text-lg font-semibold">CPRI CERTIFICATIONS</h3>
