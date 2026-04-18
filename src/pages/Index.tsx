@@ -91,7 +91,7 @@ const Index = () => {
         
         <h3 className="mt-8 text-lg font-semibold">VISION</h3>
         <p className="font-medium">
-          "To become premier EPC Contractor company globally."
+          "To deliver world-class MEP solutions with excellence and innovation."
         </p>
         
         <h3 className="mt-6 text-lg font-semibold">MISSION</h3>
