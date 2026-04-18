@@ -469,7 +469,6 @@ const Index = () => {
           </p>
         </div>
 
-        </div>
         
         <h3 className="mt-8 text-lg font-semibold">SAFETY CERTIFICATES</h3>
         <p>
