@@ -32,7 +32,7 @@ const Hero = () => {
           </span>
           <span className="inline-flex items-center gap-1.5 rounded bg-white/15 px-3 py-1.5 text-sm font-medium backdrop-blur-sm">
             <Award className="h-4 w-4 text-accent" />
-            Super "A" Grade Licensed Electrical Contractor
+            MEP Turnkey Solutions Company
           </span>
         </div>
         <button
