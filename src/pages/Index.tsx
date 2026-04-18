@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
 import { Phone, Mail, Globe, MapPin, Building2 } from "lucide-react";
-import mepCollageBanner from "@/assets/mep-collage-banner.jpg";
+import mepCollageBanner from "@/assets/mep-services-banner.jpg";
 import servicesBanner from "@/assets/services-banner.jpg";
 import phoenixMall from "@/assets/projects/phoenix-mall.jpg";
 import sapLabs from "@/assets/projects/sap-labs.jpg";
