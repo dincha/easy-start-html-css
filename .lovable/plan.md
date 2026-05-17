@@ -1,10 +1,18 @@
-## Replace temp logo with uploaded KEPL PNG and rebuild
+## Preview larger logo, then rebuild
 
-### Steps
-1. Copy `user-uploads://Company_Logo_page-0001.png` → `src/assets/kepl-logo.png`.
-2. Delete old `src/assets/kepl-logo.svg`.
-3. Update `src/components/Header.tsx`: change import to `import keplLogo from "@/assets/kepl-logo.png";` (no other changes — `<img src={keplLogo}>` already in place).
-4. Run `npm run build`, add `.htaccess` (React Router rewrite) into `dist/`, zip to `/mnt/documents/kepl-build_v3.zip`.
+### Step 1 — Edit only (so you can preview live)
+In `src/components/Header.tsx`, change the logo `<img>` className:
+- From: `h-11 flex-shrink-0`
+- To: `h-14 md:h-16 flex-shrink-0`
 
-### Result
-Header shows the real KEPL logo (orange X + blue "KEPL" wordmark), bundled locally with a hashed `.png` filename. Drop-in replacement for Hostinger `public_html/`.
+And bump nav row padding `py-2.5` → `py-3` for breathing room.
+
+That's it — the Lovable preview will update immediately. You can then tell me:
+- "good, rebuild" → I run step 2
+- "bigger" / "smaller" → I adjust the height value and you re-check
+
+### Step 2 — Rebuild (only after you approve the size)
+`npm run build` → add `.htaccess` → zip to `/mnt/documents/kepl-build_v4.zip` for Hostinger upload.
+
+### Note on the `.ai` file
+Adobe Illustrator files can't be used by the browser and the sandbox can't reliably convert them. The PNG you already uploaded (1240×1750) has plenty of resolution — sizing it bigger in CSS is the right fix.
