@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="KEPL EPC INFRA">
-  <g font-family="Inter, system-ui, sans-serif" font-weight="800">
-    <text x="0" y="36" font-size="34" fill="#0B2E5B" letter-spacing="1">KEPL</text>
-    <text x="100" y="36" font-size="34" fill="#F26B1F" letter-spacing="1">EPC</text>
-    <text x="178" y="36" font-size="34" fill="#0B2E5B" letter-spacing="1">INFRA</text>
-  </g>
-  <text x="0" y="56" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="500" fill="#475569" letter-spacing="2.2">DEDICATED SMART ENGINEERS — ALWAYS READY</text>
-</svg>
