@@ -38,11 +38,11 @@ const Header = () => {
       }`}
     >
       <nav className="container mx-auto max-w-[1100px] px-4">
-        <div className="flex items-center gap-6 overflow-x-auto py-3">
+        <div className="flex items-center gap-6 overflow-x-auto py-2.5">
           <img
             src={keplLogo}
             alt="KEPL EPC INFRA Logo"
-            className="h-14 md:h-16 flex-shrink-0"
+            className="h-11 flex-shrink-0"
           />
           {navItems.map((item) => (
             <button

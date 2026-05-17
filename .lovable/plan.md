@@ -1,18 +1,6 @@
-## Preview larger logo, then rebuild
+## Crop logo whitespace and restore h-11
 
-### Step 1 — Edit only (so you can preview live)
-In `src/components/Header.tsx`, change the logo `<img>` className:
-- From: `h-11 flex-shrink-0`
-- To: `h-14 md:h-16 flex-shrink-0`
-
-And bump nav row padding `py-2.5` → `py-3` for breathing room.
-
-That's it — the Lovable preview will update immediately. You can then tell me:
-- "good, rebuild" → I run step 2
-- "bigger" / "smaller" → I adjust the height value and you re-check
-
-### Step 2 — Rebuild (only after you approve the size)
-`npm run build` → add `.htaccess` → zip to `/mnt/documents/kepl-build_v4.zip` for Hostinger upload.
-
-### Note on the `.ai` file
-Adobe Illustrator files can't be used by the browser and the sandbox can't reliably convert them. The PNG you already uploaded (1240×1750) has plenty of resolution — sizing it bigger in CSS is the right fix.
+### Steps
+1. Use ImageMagick to auto-trim transparent/white borders from `src/assets/kepl-logo.png` → overwrite in place. Add a small uniform padding (~2% of height) so the mark doesn't touch the frame.
+2. Revert `src/components/Header.tsx` logo class back to `h-11 flex-shrink-0` and padding to `py-2.5` (matches original Nov design).
+3. Verify in preview, then rebuild and package as `/mnt/documents/kepl-build_v4.zip`.
