@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import keplLogo from "@/assets/kepl-logo.svg";
+import keplLogo from "@/assets/kepl-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
