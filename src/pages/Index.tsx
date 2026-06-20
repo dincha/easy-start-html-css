@@ -617,10 +617,10 @@ const Index = () => {
                 <div className="flex items-start gap-2">
                   <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" />
                   <p>
-                    # 401, 4th Floor, Surya Prema,<br />
-                    # 15, Plot No:1&2, 1st Cross, Manjunatha Nagar,<br />
-                    Raghuvanahalli, Kanakapura Main Road,<br />
-                    Bangalore, Karnataka - 560 062
+                    S3, Block A, 2nd Floor, Shivaganga Silverline,<br />
+                    3rd Cross Road, Opposite KSIT College, Raghuvanahalli,<br />
+                    Bangalore City Municipal Corporation Layout,<br />
+                    Bangalore - 560 109
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
